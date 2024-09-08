@@ -1,0 +1,23 @@
+{
+  "name": "image-analyzer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "An image analyzer application powered by AI",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "gen-ai",
+    "gemini",
+    "google",
+    "generative ai"
+  ],
+  "author": "eduardogomesf",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.5.4"
+  }
+}
