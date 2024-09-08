@@ -9,7 +9,8 @@ if(!process.env.GOOGLE_AI_API_KEY) {
 export const ENVS = {
   google: {
     genAI: {
-      apiKey: process.env.GOOGLE_AI_API_KEY ?? ""
+      apiKey: process.env.GOOGLE_AI_API_KEY ?? "",
+      model: process.env.GOOGLE_AI_MODEL ?? "gemini-pro"
     }
   }
 } as const
